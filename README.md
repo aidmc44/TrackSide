@@ -22,15 +22,15 @@ git pull
 ```bash
 cd Revised_Telemetry_App
 ```
-2. Cd into databaseAPI
+3. Cd into databaseAPI
 ```bash
 cd databaseAPI
 ```
-3. Run 
+4. Run 
 ```bash
 source StartDB.sh
 ```
-4. Database with preloaded data should have started
+5. Database with preloaded data should have started
 
 ### Run TrackSide
 1. Cd back into Revised_Telemetry_App
@@ -43,3 +43,15 @@ go mod tidy
 go run main.go
 ```
 4. App should start soon after
+
+### Closing TrackSide
+1. Hit the X button at the top of your window or the red button if on mac
+2. Cd into databaseAPI
+```bash
+cd Revised_Telemetry_App
+```
+3. Run
+```bash
+source StopDB.sh
+```
+4. TrackSide should now be safely closed
