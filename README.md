@@ -6,7 +6,9 @@
 3. In a bash terminal run 
 ```bash
 git clone (copied link)
+```
 or copy and run
+```bash
 git clone https://github.com/aidmc44/TrackSide.git
 ```
 4. If previously cloned run 
